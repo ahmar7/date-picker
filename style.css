@@ -175,6 +175,10 @@ thead tr:nth-child(2) {
     padding: 10px;
 }
 
+.datepicker td, .datepicker th {
+    border-radius: 0px !important;
+}
+
 /* Custom paste */
 
 @keyframes showdown {
