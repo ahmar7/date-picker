@@ -1,0 +1,200 @@
+.input-group.date i {
+    display: none;
+}
+
+/* <style> */
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+.field-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.sec {
+    margin: 0 10px;
+}
+
+.add-on {
+    padding-right: 1.7em;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-repeat: no-repeat;
+    background-position: right 0.4em top 0.6em;
+    background-size: 1rem 1rem;
+
+    font-family: "Work Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    height: 46px;
+    margin-bottom: 0;
+    padding: 0 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    outline: none;
+    border-radius: 5px;
+
+
+
+    color: #555555;
+    background-color: #ffffff;
+    border-color: #BFC3C8;
+    border-width: 1px;
+    border-style: solid;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 100%;
+    font-size: 14px;
+    padding: 6px 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    font-weight: normal;
+
+
+}
+
+.btn-group.bootstrap-select {
+    padding-top: 10px;
+    /* margin: 0 10px; */
+
+}
+
+.text-start.ps-1 {
+    font-size: 15px;
+}
+
+.form-select {
+    margin-top: 10px;
+    outline: none !important;
+    width: 60px;
+    height: 46px;
+    padding: 0 21px !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #fff;
+    text-align: center;
+
+    font-size: 13px;
+    height: 46px;
+    padding: 0 12px !important;
+    color: #6c6c6c;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+}
+
+.datepicker-days {
+    animation: showdown .5s both ease-in-out;
+    overflow: auto;
+    min-width: 0rem !important;
+}
+
+.datepicker {
+    animation: showdown .5s both ease-in-out;
+    overflow: auto;
+    min-width: 0rem !important;
+}
+
+/* Custom paste */
+.datepicker {
+    width: 600px !important;
+}
+
+.datepicker {
+    font-size: 90%;
+    border: 0px solid;
+    border-radius: 0;
+    width: 31.429em;
+    max-width: 100%;
+    font-family: inherit;
+}
+
+.datepicker {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #444;
+    border-radius: 0.25em;
+    -moz-border-radius: 0.25em;
+    -webkit-border-radius: 0.25em;
+    /* font-family: Arial,Helvetica,Sans-serif; */
+    font-size: 90%;
+}
+
+.table-condensed {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* .datepicker-days table  */
+thead tr:nth-child(2) {
+    padding: 10px;
+    background-color: #e5e7e9;
+    /* background-color: #0080ff; */
+}
+
+/* Custom paste */
+
+@keyframes showdown {
+    0% {
+        max-width: 0px;
+        /* opacity: 0 !important; */
+    }
+
+    100% {
+        max-width: 600px;
+        /* opacity: 1 !important; */
+    }
+}
+
+.btn-text button {
+    /* margin-top: 30px; */
+}
+
+.btn-text button {
+    border-color: #fbe946 !important;
+    background-color: #fbe946 !important;
+    width: 180px !important;
+    height: 46px !important;
+    /* border-radius: 5px !important; */
+    margin: 5px 10px !important;
+    border: none !important;
+    padding: 0 20px;
+}
+
+.btn-text button:hover,
+.btn-text button:focus,
+.btn-text button:active {
+    border-color: #fbe946 !important;
+    background-color: #fbe946 !important;
+    width: 180px !important;
+    height: 46px !important;
+    /* border-radius: 5px !important; */
+    outline: none;
+    margin: 5px 10px !important;
+    border: none !important;
+    padding: 0 20px;
+}
+
+
+.col-lg-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 8.666667% !important;
+}
+
+
+
+/* </style> */
