@@ -111,6 +111,7 @@ h1, h2, h3, h4, h5, h6, p {
 /* Custom paste */
 .datepicker {
     width: 600px !important;
+    min-height: 320px;
 }
 
 .datepicker {
@@ -123,9 +124,12 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .datepicker {
+    min-height: 320px;
     background-color: #fff;
     color: #000;
-    border: 1px solid #444;
+    border: none !important;
+    padding: 0;
+    box-shadow: 0 4px 8px rgb(51 51 51 / 15%);
     border-radius: 0.25em;
     -moz-border-radius: 0.25em;
     -webkit-border-radius: 0.25em;
@@ -133,16 +137,42 @@ h1, h2, h3, h4, h5, h6, p {
     font-size: 90%;
 }
 
+
 .table-condensed {
+    min-height: 295px;
     width: 100%;
     border-collapse: collapse;
 }
 
+.datepicker table tr td span.active.active, .datepicker table tr td span.active.disabled, .datepicker table tr td span.active.disabled.active, .datepicker table tr td span.active.disabled.disabled, .datepicker table tr td span.active.disabled:active, .datepicker table tr td span.active.disabled:hover, .datepicker table tr td span.active.disabled:hover.active, .datepicker table tr td span.active.disabled:hover.disabled, .datepicker table tr td span.active.disabled:hover:active, .datepicker table tr td span.active.disabled:hover:hover, .datepicker table tr td span.active.disabled:hover[disabled], .datepicker table tr td span.active.disabled[disabled], .datepicker table tr td span.active:active, .datepicker table tr td span.active:hover, .datepicker table tr td span.active:hover.active, .datepicker table tr td span.active:hover.disabled, .datepicker table tr td span.active:hover:active, .datepicker table tr td span.active:hover:hover, .datepicker table tr td span.active:hover[disabled], .datepicker table tr td span.active[disabled], .datepicker table tr td.active.active, .datepicker table tr td.active.disabled, .datepicker table tr td.active.disabled.active, .datepicker table tr td.active.disabled.disabled, .datepicker table tr td.active.disabled:active, .datepicker table tr td.active.disabled:hover, .datepicker table tr td.active.disabled:hover.active, .datepicker table tr td.active.disabled:hover.disabled, .datepicker table tr td.active.disabled:hover:active, .datepicker table tr td.active.disabled:hover:hover, .datepicker table tr td.active.disabled:hover[disabled], .datepicker table tr td.active.disabled[disabled], .datepicker table tr td.active:active, .datepicker table tr td.active:hover, .datepicker table tr td.active:hover.active, .datepicker table tr td.active:hover.disabled, .datepicker table tr td.active:hover:active, .datepicker table tr td.active:hover:hover, .datepicker table tr td.active:hover[disabled], .datepicker table tr td.active[disabled] {
+    background-color: #6e6e6e !important;
+}
+
+.datepicker table tr td span.active.active, .datepicker table tr td span.active.disabled, .datepicker table tr td span.active.disabled.active, .datepicker table tr td span.active.disabled.disabled, .datepicker table tr td span.active.disabled:active, .datepicker table tr td span.active.disabled:hover, .datepicker table tr td span.active.disabled:hover.active, .datepicker table tr td span.active.disabled:hover.disabled, .datepicker table tr td span.active.disabled:hover:active, .datepicker table tr td span.active.disabled:hover:hover, .datepicker table tr td span.active.disabled:hover[disabled], .datepicker table tr td span.active.disabled[disabled], .datepicker table tr td span.active:active, .datepicker table tr td span.active:hover, .datepicker table tr td span.active:hover.active, .datepicker table tr td span.active:hover.disabled, .datepicker table tr td span.active:hover:active, .datepicker table tr td span.active:hover:hover, .datepicker table tr td span.active:hover[disabled], .datepicker table tr td span.active[disabled], .datepicker table tr td.active, .datepicker table tr td.active.disabled, .datepicker table tr td.active.disabled:hover, .datepicker table tr td.active:hover {
+    background-image: linear-gradient(to bottom, #6e6e6e, #6e6e6e) !important;
+
+}
+
 /* .datepicker-days table  */
+thead tr:nth-child(2) th {
+    color: #848484 !important;
+}
+
+thead tr:nth-child(3) {
+    height: 2.778em;
+    background-color: #f1f3f4;
+    color: #717171;
+}
+
 thead tr:nth-child(2) {
-    padding: 10px;
+    padding: 30px;
     background-color: #e5e7e9;
     /* background-color: #0080ff; */
+}
+
+.datepicker th {
+    border-radius: 0px !important;
+    padding: 10px;
 }
 
 /* Custom paste */
